@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <title>The Negotiator</title>
+</head>
+<body class="standard">
+    <div class="screenhead">
+    <div class="navbar"><a href="homepage.html" class="navbarbutton">An intro to me</a>
+    <a href="game_history.html" class="navbarbutton">My history with games</a>
+    <a href="my_interests.html" class="navbarbutton">My other interests</a>
+    </div>
+    <div ><h1 class="standardhead">The Negotiator</h1></div>
+</div>
+    <div class="negotiatorcontent">
+    <p class="ncc standardtext">As part of the CodeNation course, we worked in groups to create text based games and here I'd like to talk about some parts of that project I particularly enjoyed. To the right here, there's a section of code that was used to set up for a section of the game that involved RNG. For this we elected to have the game generate a random number between 1 and 100 and compare that to your chances of winning.
+        <br><br>
+    This had an issue however. Just having static chances for each option would be boring, so we elected to have a path that would affect other chances and then loop back. However simply looping back would mean people could just retake that option. The image on the right shows the code that removes that option and stops a player from picking it if they have already modified their chances.
+    </p>
+    <img src="images/gameproject1.png" alt="Negotiator_Code" class="ncc">
+    <img src="images/gameproject2.png" alt="Negotiator_Code2" class="ncc">
+    <p class="ncc">Another fun segment of the game was the password puzzle. For this we wanted a random four digit pin, a way of comparing that to a pin the player entered and then a way of comparing them and giving hints to the player. To the left here there's an image for the prep for this. The first section generates 4 random digits. The second section puts both the random digits and the digits the player inputs later into two seperate lists. The third section compares the too lists and prints out simple hints based on the results. Later, we utilised a while loop to get player input and that while loop would break if the player either got all 4 numbers correct or if they failed too many times.
+        <br><br>
+        This became a fun excercise of working out smalls steps we needed for a much larger goal and working out how to logically take and connect those steps.
+    </p>
+    </div>
+</body>
+</html>

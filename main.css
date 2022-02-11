@@ -1,0 +1,177 @@
+.standard{background-image: url(images/backgroundmaybe.jpg);
+background-size: cover;}
+
+.screenhead{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.navbar{
+    padding: 20px;
+    border: 2px;
+    border-color: black;
+    border-radius: 30px;
+    background-color: rgba(128, 128, 128, 0.473);
+    color: rgb(235, 224, 245);
+    text-align: center;
+    width: 600px;
+    margin: 0%;
+    height: min-content;
+}
+.navbarbutton{
+    color: aliceblue;
+    padding: 5px;
+    border: 2px;
+    border-color: aliceblue;
+    background-color: darkorchid;
+    border-radius: 50px;
+    margin: 20px;
+}
+
+.navbarbutton:hover{
+    background-color: aliceblue;
+    color: darkorchid;
+}
+
+.gamenavbarbutton{
+    color: aliceblue;
+    padding: 5px;
+    border: 2px;
+    border-color: aliceblue;
+    background-color: rgb(253, 6, 6);
+    border-radius: 50px;
+    margin: 20px;
+}
+
+.gamenavbarbutton:hover{
+    background-color: aliceblue;
+    color: rgb(253, 6, 6);
+}
+
+p{font-family: Arial, Helvetica, sans-serif;}
+
+h1{font-family: Arial, Helvetica, sans-serif;}
+
+
+#videobackground{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.stroke{
+    color: rgb(253, 6, 6);
+    text-shadow: -1px -1px 0 rgb(252, 250, 250), 1px -1px 0 rgb(250, 247, 247), -1px 1px 0 rgb(247, 244, 244), 1px 1px 0 rgb(252, 248, 248);
+}
+
+.landingpage{
+    background-image: url(images/lpbackground.png);
+    background-size: cover;
+}
+.lpcontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#lpheader{
+    font-size: 50px;
+    border: 2px;
+    border-color: grey;
+    background-color: rgba(0, 0, 0, 0.507);
+    width: 500px;
+    color: rgb(225, 0, 255);
+}
+
+a#lplink{
+    padding: 5px;
+    background:
+    linear-gradient(
+      to bottom,
+      var(--mainColor) 0%,
+      var(--mainColor) 100%
+    );
+   background-position: right center;
+   background-repeat: no-repeat;
+   background-size: 0 100%;
+   border: 2px;
+   border-radius: 5px;
+ color: rgb(136, 11, 194);
+ text-decoration: none;
+ font-size: 40px;
+ transition: background-size .2s;
+    
+}
+:root {
+    --mainColor: rgb(109, 250, 43);
+  }
+a#lplink:hover{
+    background-size: 100% 100%;
+    background-position: left center;
+}
+.standardhead{
+    font-size: 80px;
+    margin-left: 5vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    color: rgb(136, 11, 194);
+}
+.standardcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 10px;
+    border-color: black;
+    border-radius: 5px;
+    background-color: rgba(97, 96, 96, 0.562);
+    width: 1040px;
+    position: relative;
+    left: 5%;
+}
+.standardtext{
+    color: rgb(104, 4, 150);
+    width: 1000px;
+}
+.standardcontent img{
+    height: 30vh;
+}
+.negotiatorcontent{
+    display: flex;
+    height: 80vh;
+    width: 70vh;
+    flex-wrap: wrap;
+    padding: 5px;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-left: 20vw;
+}
+.ncc{height: 50%;
+width: 50%;
+margin: 0%;}
+
+.gamecontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.gameheader{font-size: 40px;}
+.gametext{width: 50%;
+font-size: 20px;}
